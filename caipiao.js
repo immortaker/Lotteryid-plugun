@@ -2,8 +2,8 @@ import plugin from '../../lib/plugins/plugin.js';
 import fetch from 'node-fetch';  
 
 // 百度API信息  
-const BAIDU_API_KEY = 'rawOpzG6Zcq09xvAAxt5nXmh';  
-const BAIDU_SECRET_KEY = '4S4ikyGuWcDvN689xHemZUn0zcvOCO5Y';  
+const BAIDU_API_KEY = 'ak';  
+const BAIDU_SECRET_KEY = 'sk';  
 const OCR_API = 'https://aip.baidubce.com/rest/2.0/ocr/v1/general';  
 const TOKEN_URL = 'https://aip.baidubce.com/oauth/2.0/token';  
 const LOTTERY_API = 'http://api.huiniao.top/interface/home/lotteryHistory';  
